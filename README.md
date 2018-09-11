@@ -4,7 +4,7 @@ This is an app using [Ruby](https://www.ruby-lang.org), [Hanami](https://hanamir
 
 ## Getting started
 
-This app uses OpenWeatherMap and requires an API key to run. To run this app locally add your API key to the `.env.development` file:
+To run this app locally add your OpenWeatherMap API key to the `.env.development` file:
 
 ```
 OPEN_WEATHER_MAP_APPID="API_KEY"
