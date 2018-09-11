@@ -7,7 +7,7 @@ body {
 }
 
 .title {
-  font-size: 69px;
+  font-size: 64px;
 }
 
 .container {
@@ -16,4 +16,14 @@ body {
   margin-top: 50px;
   border-radius: 25px;
   padding: 25px 50px 50px;
+}
+
+.city-temp {
+  float:left;
+  margin-top:-3px;
+  font-size:64px;
+}
+
+.city-temp__units {
+  display:inline;
 }

@@ -1,9 +1,9 @@
 <div class='row justify-content-center'>
-  <h1 class="title"><%= city && city['name'] || "Weather" %></h1>
+  <h1 class='title'><%= city && city['name'] || 'Weather' %></h1>
 </div>
 <div class='row justify-content-center mt-5'>
   <%=
-    form_for :weather, "/", method: :get do
+    form_for :weather, '/', method: :get do
       text_field :q, name: :q
 
       submit 'Submit'
@@ -12,11 +12,11 @@
 </div>
 <% if city %>
   <div class='row justify-content-center mt-5'>
-    <div class="vk_bk sol-tmp" style="float:left;margin-top:-3px;font-size:64px">
-      <span class="wob_t" id="wob_tm" style="">
+    <div class='city-temp'>
+      <span>
         <%= city['main']['temp'].to_f.round %>
       </span>
     </div>
-    <span class="wob_t" style="display:inline" aria-label="°Fahrenheit" aria-disabled="true" role="button">°F</span>
+    <span class='city-temp__units' aria-label='°Fahrenheit' aria-disabled='true' role='button'>°F</span>
   </div>
 <% end %>
