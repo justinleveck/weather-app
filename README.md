@@ -1,6 +1,6 @@
 # Weather
 
-This is an app using Ruby, Hanami https://hanamirb.org and OpenWeatherMap https://openweathermap.org/api to display the temperature for a given city in fahrenheit.
+This is an app using [Ruby](https://www.ruby-lang.org), [Hanami](https://hanamirb.org) and [OpenWeatherMap](https://openweathermap.org/api) to display the temperature for a given city in fahrenheit.
 
 ## Getting started
 
