@@ -20,6 +20,7 @@ end
 group :test do
   gem 'minitest'
   gem 'capybara'
+  gem 'webmock'
 end
 
 group :production do
