@@ -1,0 +1,8 @@
+/db/*.sqlite
+/public/assets*
+/tmp
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

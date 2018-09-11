@@ -1,0 +1,3 @@
+project=weather
+test=minitest
+template=erb

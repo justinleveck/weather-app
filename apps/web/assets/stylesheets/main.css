@@ -1,0 +1,19 @@
+body {
+  color: rgb(255, 255, 255);
+  background-image: url(space_bg.jpg);
+  -webkit-font-smoothing: antialiased;
+  background-position: center 100px;
+  background-repeat: repeat;
+}
+
+.title {
+  font-size: 69px;
+}
+
+.container {
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(rgba(158, 0, 201, 0.6), rgba(255, 0, 110, 0.6));
+  margin-top: 50px;
+  border-radius: 25px;
+  padding: 25px 50px 50px;
+}
