@@ -1,4 +1,19 @@
-# Weather
+# Weather Challenge
+
+Please implement the following:
+
+An application that uses http://openweathermap.org/appid
+
+Story:
+As a User
+When I type in the name of a city
+And I click submit
+Then I see the temperature in Fahrenheit
+
+Bonus Points:
+Setup the application with AWS (free tier).
+
+# Solution
 
 This is an app using [Ruby](https://www.ruby-lang.org), [Hanami](https://hanamirb.org) and [OpenWeatherMap](https://openweathermap.org/api) to display the temperature for a given city in fahrenheit.
 
